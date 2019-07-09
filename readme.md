@@ -1,7 +1,7 @@
 # Checking Hotel Prices
 ## Introducing this Code Sample
 
-We offer an API called [Hotel Price Check V2](https://developer.sabre.com/docs/rest_apis/hotel/search/hotel_price_check_v2) to help you find information about a specific property that meets your travelers' needs. Through using the API, in one request, your application receives:
+We offer an API called [Hotel Price Check V2](https://developer.sabre.com/docs/rest_apis/hotel/search/hotel_price_check) to help you find information about a specific property that meets your travelers' needs. Through using the API, in one request, your application receives:
 
   * Confirmation that a room price returned during shopping activities is still applicable
   * Pricing details in a chosen currency format that are the latest supplied from our content aggregator
@@ -15,7 +15,7 @@ What does the sample app look like when it runs? Here is a screen shot:
 
 ## Read the Article
 
-There is [an article](https://blog.developer.sabre.com/) serving as a partner to this sample app source code. You’ll find explanations and additional resources written in it to add context whenever possible. 
+There is [an article](https://blog.developer.sabre.com/blog/2019/07/11/content-services-lodging-deep-dive-part-3-checking-prices/) serving as a partner to this sample app source code. You’ll find explanations and additional resources written in it to add context whenever possible. 
 
 ## Setting-up the Sample App
 
@@ -80,7 +80,7 @@ const SearchCriteria = {
 
 ## Next Steps
 
-Make use of this sample app as a testing tool. It’s a simple, flexible, jumping-off point for learning how to use Sabre APIs in general, and Hotel Price Check in particular. Look up the [docs](https://developer.sabre.com/docs/rest_apis/hotel/search/hotel_price_check_v2) and discover all that it can do. Find something interesting? Call it by changing the request attribute values found in the file [`hotelPricingModel.js`](./app/hotelPricingModel.js). Save the file and run the app to see how the updates perform.
+Make use of this sample app as a testing tool. It’s a simple, flexible, jumping-off point for learning how to use Sabre APIs in general, and Hotel Price Check in particular. Look up the [docs](https://developer.sabre.com/docs/rest_apis/hotel/search/hotel_price_check) and discover all that it can do. Find something interesting? Call it by changing the request attribute values found in the file [`hotelPricingModel.js`](./app/hotelPricingModel.js). Save the file and run the app to see how the updates perform.
 
 Get in touch with us. GitHub allows communication through its repo-level issue and pull request channels. Use the built-in [issues section](https://github.com/SabreDevStudio/hotel-price-check-v2-sample-nodejs/issues).
 
